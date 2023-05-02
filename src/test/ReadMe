@@ -1,0 +1,75 @@
+
+
+
+   https://www.hosting.com.tr/bilgi-bankasi/rest-api/ -->REST API İÇİN GEREKLİ BİLGİLERİN OLDUĞU LİNK
+
+
+     https://jsonpathfinder.com/  --->  rest assured da arama yapmak için bu linkten yardım alabiliriz
+       JSON Path Finder
+       JSON Path Finder
+
+
+
+       PM                            RestAssured
+       body.country                  body("country")
+       body.'post code'              body("post code")
+       body.places[0].'place name'   body("places[0].'place name'")
+       body.places.'place name'      body("places.'place name'")
+       bütün place nameleri bir arraylist olarak verir
+
+       {
+       "post code": "90210",
+       "country": "United States",
+       "country abbreviation": "US",
+       "places": [
+       {
+       "place name": "Beverly Hills",
+       "longitude": "-118.4065",
+       "state": "California",
+       "state abbreviation": "CA",
+       "latitude": "34.0901"
+       }
+       ]
+       }
+
+
+   API ÇALIŞMA ORTAMLARI
+
+       https://gorest.co.in/
+       https://gorest.co.in/public/v2/posts
+       https://gorest.co.in/public/v2/comments
+       http://api.zippopotam.us/us/90210
+       http://api.zippopotam.us/tr/01000
+       https://test.mersys.io/
+       https://developer.nytimes.com/apis
+
+
+
+
+     PATH PARAM   VE QUERY   PARAM FARKI
+
+     http://api.zippopotam.us/us/90210    path PARAM
+     https://sonuc.osym.gov.tr/Sorgu.aspx?SonucID=9617  Query PARAM
+
+
+
+    İNTERVİEW DE BAREAR TOKEN YERİNE BU ŞEKİLDE API KEY VEREBİLİRLER
+    resource     :  https://l9njuzrhf3.execute-api.eu-west-1.amazonaws.com/prod/user
+    api key  adı :  x-api-key
+    valuesi      :  GwMco9Tpstd5vbzBzlzW9I7hr6E1D7w2zEIrhOra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
